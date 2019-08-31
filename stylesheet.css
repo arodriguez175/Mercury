@@ -128,5 +128,8 @@
     width: 100%;
   }
 }
+navbar a {
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=stylesheet.css.map */
