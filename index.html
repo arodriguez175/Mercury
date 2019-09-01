@@ -8,19 +8,35 @@
         <meta name="author" content="">
         <meta name="keywords" content="">
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     </head>
 <body>
     <!-- Navbar -->
-    <navbar>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-    </navbar>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="topnav" id="Topnav">
+                    <a href="index.html">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fas fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-6">
+                <i id="cart" class="fas fa-shopping-cart"></i><div id="cart-contents"></div><p class="login-signup"><a href="#">Login</a> or <a href="#">Sign up</a></p>
+            </div>
+        </div>
+    </div>
+    
+    
     
     <!-- Login or Sign up -->
     
     
 </body>
 
-<!-- don’t forget the script tag for js -->
+<script src="js/functionality.js"></script>
+
 </html>
