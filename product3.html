@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    </head>
+<body>
+    <!-- Navigation -->
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="topnav" id="myTopnav">
+                    <a href="index.html">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fas fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-6">
+                <a href="#"><i id="cart" class="fas fa-shopping-cart"></i></a><p class="login-signup"><a href="#">Login</a> or <a href="#">Sign up</a></p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Searchbar -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <input id="search-bar" type="text" placeholder="Type something...">
+                <button id="search-button">Search</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Back button -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <button id="back-button">&#8249; Back</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Product -->
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <img src="images/shoes3.jpeg" alt="Shoes">
+                <p class="name-and-price">Red and black nike running shoes <br>$65.00</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dapibus turpis a erat vehicula, sed molestie leo aliquet.</p>
+            </div>
+            <div class="col-6">
+                <!-- buy section -->
+                <div id="buy-section">
+                    <a href="checkout.html"><button class="action-buttons" id="buy-button">Buy Now</button></a>
+                    <button class="action-buttons" id="cart-button">Add to Cart</button>
+                    <button class="action-buttons" id="save-button">Save for Later</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <div class="container" id="footer">
+        <div class="row">
+            <div class="col-12">
+                <footer>Copyright &copy; 2019</footer>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/functionality.js"></script>
+</body>
+</html>

@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Ecommerce</title>
-        <meta charset="utf-8">
+        <title>Title</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <meta name="keywords" content="">
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     </head>
 <body>
-    <!-- Navbar -->
+    <!-- Navigation -->
     <div class="container">
         <div class="row">
             <div class="col-6">
@@ -26,11 +22,10 @@
                 </div>
             </div>
             <div class="col-6">
-                <i id="cart" class="fas fa-shopping-cart"></i><div id="cart-contents"></div><p class="login-signup"><a href="#">Login</a> or <a href="#">Sign up</a></p>
+                <a href="#"><i id="cart" class="fas fa-shopping-cart"></i></a><p class="login-signup"><a href="#">Login</a> or <a href="#">Sign up</a></p>
             </div>
         </div>
     </div>
-    
     
     
     <!-- Searchbar -->
@@ -38,22 +33,36 @@
         <div class="row">
             <div class="col-12">
                 <input id="search-bar" type="text" placeholder="Type something...">
-                 <button id="search-button">Search</button>
+                <button id="search-button">Search</button>
             </div>
         </div>
     </div>
     
-    <!-- Products -->
+    <!-- Back button -->
     <div class="container">
         <div class="row">
-            <div class="col-4"><a href="product1.html"><img src="images/shoes1.jpeg" alt="shoes number one"></a><p class="name-and-price">Black and white nike running shoes <br>$90.00</p></div>
-            <div class="col-4"><a href="product2.html"><img src="images/shoes2.jpeg" alt="shoes number two"></a><p class="name-and-price">Sport fitness running shoes <br>$70.00</p></div>
-            <div class="col-4"><a href="product3.html"><img src="images/shoes3.jpeg" alt="shoes number three"></a><p class="name-and-price">Red and black nike running shoes <br>$65.00</p></div>
+            <div class="col-12">
+                <button id="back-button">&#8249; Back</button>
+            </div>
         </div>
+    </div>
+    
+    <!-- Product -->
+    <div class="container">
         <div class="row">
-            <div class="col-4"><a href="product4.html"><img src="images/shoes4.jpeg" alt="shoes number four"></a><p class="name-and-price">Black and white running shoes <br>$50.00</p></div>
-            <div class="col-4"><a href="product5.html"><img src="images/shoes5.jpeg" alt="shoes number five"></a><p class="name-and-price">Blue nike low top shoes <br>$65.00</p></div>
-            <div class="col-4"><a href="product6.html"><img src="images/shoes6.jpeg" alt="shoes number six"></a><p class="name-and-price">Brown and black merrell hiking shoes <br>$30.00</p></div>
+            <div class="col-6">
+                <img src="images/shoes2.jpeg" alt="Shoes">
+                <p class="name-and-price">Sport fitness running shoes <br>$70.00</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dapibus turpis a erat vehicula, sed molestie leo aliquet.</p>
+            </div>
+            <div class="col-6">
+                <!-- buy section -->
+                <div id="buy-section">
+                    <a href="checkout.html"><button class="action-buttons" id="buy-button">Buy Now</button></a>
+                    <button class="action-buttons" id="cart-button">Add to Cart</button>
+                    <button class="action-buttons" id="save-button">Save for Later</button>
+                </div>
+            </div>
         </div>
     </div>
     
@@ -66,8 +75,6 @@
         </div>
     </div>
     
+    <script src="js/functionality.js"></script>
 </body>
-
-<script src="js/functionality.js"></script>
-
 </html>
