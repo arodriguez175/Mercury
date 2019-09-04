@@ -151,6 +151,26 @@
   display: none;
 }
 
+.selection a {
+  float: left;
+  display: block;
+  color: #363636;
+  text-align: center;
+  padding: 12px 14px;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+  border-color: gainsboro;
+}
+.selection a:hover {
+  background: #363636;
+  color: #ffffff;
+}
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
     display: none;
@@ -203,7 +223,7 @@
 #search-button {
   text-decoration: none;
   color: white;
-  background-color: skyblue;
+  background-color: #363636;
   padding: 10px;
   width: 70px;
   border-radius: 5px;

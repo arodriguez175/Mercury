@@ -77,19 +77,42 @@
         text-decoration: none;
         font-size: 17px;
         font-family: 'Lato', sans-serif;
-    }
+        }
     
     a:hover {
-        border-style: solid;
-        border-width: thin;
-        border-color: gainsboro;
-        color: black;
-    }
+            border-style: solid;
+            border-width: thin;
+            border-color: gainsboro;
+            color: black;
+        }
     
     .icon {
         display: none;
     }
     
+}
+
+.selection {
+    a {
+        float: left;
+        display: block;
+        color: #363636;
+        text-align: center;
+        padding: 12px 14px;
+        margin: 5px;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: 'Lato', sans-serif;
+        border-style: solid;
+        border-width: thin;
+        border-radius: 5px;
+        border-color: gainsboro;
+    }
+    
+    a:hover {
+        background: #363636;
+        color: #ffffff;
+    }
 }
 
 // Media Queries
@@ -142,7 +165,7 @@
 #search-button {
     text-decoration: none;
     color: white;
-    background-color: skyblue;
+    background-color: #363636;
     padding: 10px;
     width: 70px;
     border-radius: 5px;
