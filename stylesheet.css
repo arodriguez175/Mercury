@@ -345,4 +345,9 @@ h2 {
   font-family: "Lato", sans-serif;
 }
 
+#contact-section {
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+}
+
 /*# sourceMappingURL=stylesheet.css.map */
