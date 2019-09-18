@@ -350,4 +350,17 @@ h2 {
   border-radius: 10px;
 }
 
+#login-form {
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+}
+#login-form input {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
 /*# sourceMappingURL=stylesheet.css.map */
