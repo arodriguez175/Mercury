@@ -362,5 +362,37 @@ h2 {
   border: none;
   background: #f1f1f1;
 }
+#login-form label {
+  position: relative;
+  top: -34px;
+  right: -22px;
+}
+#login-form a {
+  position: relative;
+  top: -34px;
+  float: right;
+  color: black;
+}
+#login-form #terms-conditions {
+  text-align: center;
+}
+
+.button-holder {
+  text-align: center;
+}
+.button-holder button {
+  display: block;
+  padding: 15px;
+  margin: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+.button-holder #login-button {
+  background-color: #363636;
+  color: #ffffff;
+}
+.button-holder #signup-button {
+  background-color: #f6f6f6;
+}
 
 /*# sourceMappingURL=stylesheet.css.map */
