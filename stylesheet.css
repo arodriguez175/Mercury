@@ -258,6 +258,8 @@ img {
   border-radius: 5px;
   width: 150px;
   height: 200px;
+  position: relative;
+  bottom: -83px;
 }
 
 #footer {
@@ -302,6 +304,8 @@ img {
 
 .size {
   margin: 10px;
+  position: relative;
+  bottom: -83px;
 }
 
 .size input[type=radio] {
@@ -336,8 +340,8 @@ h3 {
 }
 
 h2 {
-  padding-left: 15px;
   font-family: "Lato", sans-serif;
+  text-align: center;
 }
 
 #about-images p {
@@ -393,6 +397,19 @@ h2 {
 }
 .button-holder #signup-button {
   background-color: #f6f6f6;
+}
+
+@media only screen and (max-width: 600px) {
+  .size, #buy-section {
+    position: relative;
+    top: -1px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #login-form button {
+    display: inline;
+    width: 300px;
+  }
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
