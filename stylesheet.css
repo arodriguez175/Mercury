@@ -353,6 +353,9 @@ h2 {
   border: 1px solid #e6e6e6;
   border-radius: 10px;
 }
+#contact-section p {
+  text-align: center;
+}
 
 #login-form {
   border: 1px solid #e6e6e6;
