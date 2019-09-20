@@ -165,6 +165,8 @@
   border-width: thin;
   border-radius: 5px;
   border-color: gainsboro;
+  position: relative;
+  top: -30px;
 }
 .selection a:hover {
   background: #363636;
@@ -214,20 +216,24 @@
 
 #search-bar {
   width: 50%;
-  padding: 10px;
+  padding: 15px;
   border-radius: 5px;
   border: 1px solid #d9d9d9;
   box-shadow: 1px 2px 3px #bfbfbf;
+  position: relative;
+  top: -30px;
 }
 
 #search-button {
   text-decoration: none;
   color: white;
   background-color: #363636;
-  padding: 10px;
+  padding: 15px;
   width: 70px;
   border-radius: 5px;
   box-shadow: 1px 2px 3px #bfbfbf;
+  position: relative;
+  top: -30px;
 }
 
 #search-button:hover {
@@ -296,6 +302,8 @@ img {
   padding: 15px;
   width: 100px;
   border-radius: 5px;
+  position: relative;
+  top: -15px;
 }
 
 #back-button:hover {
@@ -412,6 +420,11 @@ h2 {
   #login-form button {
     display: inline;
     width: 300px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .login-signup {
+    float: left;
   }
 }
 @media only screen and (min-width: 992px) {

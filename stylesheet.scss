@@ -77,6 +77,7 @@
         text-decoration: none;
         font-size: 17px;
         font-family: 'Lato', sans-serif;
+        
         }
     
     a:hover {
@@ -107,6 +108,8 @@
         border-width: thin;
         border-radius: 5px;
         border-color: gainsboro;
+        position: relative;
+        top: -30px;
     }
     
     a:hover {
@@ -156,20 +159,24 @@
 // Searchbar
 #search-bar {
     width: 50%;
-    padding: 10px;
+    padding: 15px;
     border-radius: 5px;
     border: 1px solid #d9d9d9;
     box-shadow: 1px 2px 3px #bfbfbf;
+    position: relative;
+    top: -30px;
 }
 
 #search-button {
     text-decoration: none;
     color: white;
     background-color: #363636;
-    padding: 10px;
+    padding: 15px;
     width: 70px;
     border-radius: 5px;
     box-shadow: 1px 2px 3px #bfbfbf;
+    position: relative;
+    top: -30px;
 }
 
 #search-button:hover {
@@ -240,6 +247,8 @@ img {
     padding: 15px;
     width: 100px;
     border-radius: 5px;
+    position: relative;
+    top: -15px;
 }
 
 #back-button:hover {
@@ -362,7 +371,7 @@ h2 {
     }
 }
 
-// Break points
+// Size and Buy Section Breakpoints
 @media only screen and (max-width: 600px) {
     .size, #buy-section {
         position: relative;
@@ -370,6 +379,7 @@ h2 {
     }
 }
 
+// Login Form Breakpoints
 @media only screen and (min-width: 600px) {
     #login-form {
         button {
@@ -379,6 +389,13 @@ h2 {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .login-signup {
+        float: left;
+    }
+}
+
+// Buy Section Breakpoints
 @media only screen and (min-width: 992px) {
     #buy-section {
         width: 50%;
@@ -388,3 +405,4 @@ h2 {
         }
     }
 }
+
