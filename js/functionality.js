@@ -14,3 +14,6 @@ document.getElementById("back-button").addEventListener("click", goBack);
 function goBack() {
     window.history.back();
 }
+
+// Auto-updating Copyright Year
+document.getElementById("footer").innerHTML="Copyright&copy; "+(new Date().getFullYear());
