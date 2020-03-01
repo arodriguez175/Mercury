@@ -248,6 +248,7 @@ img {
 }
 
 .name-and-price {
+  font-size: 16pt;
   font-family: "Lato", sans-serif;
 }
 
@@ -434,6 +435,9 @@ h2 {
   #buy-section button {
     width: 70%;
   }
+}
+ul {
+  font-family: "Lato", sans-serif;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
