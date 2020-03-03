@@ -271,6 +271,7 @@ img {
 }
 
 #footer {
+  font-family: "Lato", sans-serif;
   margin-top: 20%;
   text-align: center;
 }
@@ -356,6 +357,7 @@ h2 {
 #about-images p {
   margin-bottom: 100px;
   font-family: "Lato", sans-serif;
+  font-size: 17pt;
 }
 
 #contact-section {
@@ -363,6 +365,7 @@ h2 {
   border-radius: 10px;
 }
 #contact-section p {
+  font-family: "Lato", sans-serif;
   text-align: center;
 }
 
