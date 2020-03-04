@@ -73,7 +73,7 @@
         display: block;
         color: #363636;
         text-align: center;
-        padding: 14px 16px;
+        padding: 12px 14px;
         text-decoration: none;
         font-size: 17px;
         font-family: 'Lato', sans-serif;
@@ -99,7 +99,7 @@
         display: block;
         color: #363636;
         text-align: center;
-        padding: 12px 14px;
+        padding: 11px 13px;
         margin: 5px;
         text-decoration: none;
         font-size: 15px;
@@ -109,13 +109,15 @@
         border-radius: 5px;
         border-color: gainsboro;
         position: relative;
-        top: -30px;
+        top: -20px;
     }
     
     a:hover {
         background: #363636;
         color: #ffffff;
     }
+    
+    margin-left: 10px;
 }
 
 // Media Queries
@@ -295,6 +297,7 @@ img {
 // h3, h2
 h3 {
     font-family: 'Lato', sans-serif;
+    margin: 0;
 }
 
 h2 {
