@@ -101,6 +101,7 @@
         text-align: center;
         padding: 11px 13px;
         margin: 5px;
+        margin-top: 10px;
         text-decoration: none;
         font-size: 15px;
         font-family: 'Lato', sans-serif;
@@ -415,4 +416,12 @@ h2 {
 
 ul {
     font-family: 'Lato', sans-serif;
+}
+
+#logo {
+    margin-left: 13px;
+    font-family: 'Righteous', cursive;
+    color: red;
+    font-size: 25pt;
+    margin: 5px;
 }
